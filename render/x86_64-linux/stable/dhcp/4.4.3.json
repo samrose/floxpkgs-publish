@@ -1,0 +1,137 @@
+{
+  "element": {
+    "storePaths": [
+      "/nix/store/1hx0g24as4b55pi8cg64cb79is1qfnjk-dhcp-4.4.3"
+    ],
+    "attrPath": [
+      "x86_64-linux",
+      "stable",
+      "dhcp"
+    ],
+    "active": true
+  },
+  "cache": [
+    {
+      "cacheUrl": "https://flox-store-public.s3.us-east-1.amazonaws.com?trusted=1",
+      "state": "hit",
+      "narinfo": [
+        {
+          "valid": true,
+          "path": "/nix/store/1hx0g24as4b55pi8cg64cb79is1qfnjk-dhcp-4.4.3",
+          "deriver": "/nix/store/4m07lg89bh8vwmsj8mqk9lgv10vnrcgf-dhcp-4.4.3.drv",
+          "references": [
+            "/nix/store/bvy2z17rzlvkx2sj7fy99ajm853yv898-glibc-2.34-210",
+            "/nix/store/rbnxy66qdny2q8j7rbq847qa0a6dqaax-openldap-2.4.58"
+          ],
+          "url": "nar/0zmv112zw438rpb4jyliijwd816s6mq4dr3cxdax63qa7zybfcnq.nar.xz",
+          "downloadSize": 1614024,
+          "narHash": "sha256-yUPPb0FJKRHct9cOnC1++7eetJxP1fynnHkuSVo2znY=",
+          "signatures": [
+            "cache.nixos.org-1:ZIqsEEiRdcQy2dgcCpkQWrrfZtLNp2Ar1WZvyOfBcwV0SXix4XZ7tgjTOu4P2zg7BXU9T8fNXbYn0FUKlzrJAA==",
+            "samrose:T/F/lck1ISKignIk6j+TsvpZXniBtov6j1HyRgpNAxgFUHNHJ/Ug8Q3ekXtw0hUtE0VvxPF/L3K7+tFtPbi7BA=="
+          ],
+          "narSize": 7494736,
+          "downloadHash": "sha256-2DK3/D8KD9NV62zkRnA12gTUuIyReknWzWgQ/kUIu34="
+        }
+      ]
+    }
+  ],
+  "build": {},
+  "eval": {
+    "attrPath": [
+      "x86_64-linux",
+      "stable",
+      "dhcp"
+    ],
+    "drvPath": "/nix/store/4m07lg89bh8vwmsj8mqk9lgv10vnrcgf-dhcp-4.4.3.drv",
+    "meta": {
+      "available": true,
+      "broken": false,
+      "description": "Dynamic Host Configuration Protocol (DHCP) tools",
+      "homepage": "https://www.isc.org/dhcp/",
+      "insecure": false,
+      "knownVulnerabilities": [],
+      "license": {
+        "deprecated": false,
+        "free": true,
+        "fullName": "Mozilla Public License 2.0",
+        "redistributable": true,
+        "shortName": "mpl20",
+        "spdxId": "MPL-2.0",
+        "url": "https://spdx.org/licenses/MPL-2.0.html"
+      },
+      "longDescription": "ISC's Dynamic Host Configuration Protocol (DHCP) distribution\nprovides a freely redistributable reference implementation of\nall aspects of DHCP, through a suite of DHCP tools: server,\nclient, and relay agent.\n",
+      "name": "dhcp-4.4.3",
+      "outputsToInstall": [
+        "out"
+      ],
+      "platforms": [
+        "i686-cygwin",
+        "x86_64-cygwin",
+        "x86_64-darwin",
+        "i686-darwin",
+        "aarch64-darwin",
+        "armv7a-darwin",
+        "i686-freebsd",
+        "x86_64-freebsd",
+        "x86_64-solaris",
+        "aarch64-linux",
+        "armv5tel-linux",
+        "armv6l-linux",
+        "armv7a-linux",
+        "armv7l-linux",
+        "i686-linux",
+        "m68k-linux",
+        "mipsel-linux",
+        "mips64el-linux",
+        "powerpc64-linux",
+        "powerpc64le-linux",
+        "riscv32-linux",
+        "riscv64-linux",
+        "s390-linux",
+        "s390x-linux",
+        "x86_64-linux",
+        "aarch64-netbsd",
+        "armv6l-netbsd",
+        "armv7a-netbsd",
+        "armv7l-netbsd",
+        "i686-netbsd",
+        "m68k-netbsd",
+        "mipsel-netbsd",
+        "powerpc-netbsd",
+        "riscv32-netbsd",
+        "riscv64-netbsd",
+        "x86_64-netbsd",
+        "i686-openbsd",
+        "x86_64-openbsd",
+        "x86_64-redox"
+      ],
+      "position": "/nix/store/p9cy40dr69g6507w6zxln6mx8y2rjz7d-source/pkgs/dhcp/default.nix:88",
+      "unfree": false,
+      "unsupported": false
+    },
+    "name": "dhcp-4.4.3",
+    "outputs": {
+      "out": "/nix/store/1hx0g24as4b55pi8cg64cb79is1qfnjk-dhcp-4.4.3"
+    },
+    "pname": "dhcp",
+    "stability": "stable",
+    "system": "x86_64-linux",
+    "version": "4.4.3"
+  },
+  "source": {
+    "locked": {
+      "lastModified": 1660078570,
+      "narHash": "sha256-WrbzAinACvuE0woVo3YLDT4kht5kz1P5qIe7HCdusuc=",
+      "owner": "samrose",
+      "repo": "floxpkgs-publish",
+      "rev": "496c3645ec191aee3b96d4f4cc9cbc69bcbb6adf",
+      "type": "github"
+    },
+    "original": {
+      "owner": "samrose",
+      "repo": "floxpkgs-publish",
+      "type": "github"
+    }
+  }
+}

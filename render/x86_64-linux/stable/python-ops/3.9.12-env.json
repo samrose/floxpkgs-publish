@@ -3,12 +3,12 @@
     "storePaths": [
       "/nix/store/znnxsqqh10j3zmchvwia7rspj2gbw2nr-python3-3.9.12-env"
     ],
+    "active": true,
     "attrPath": [
       "x86_64-linux",
       "stable",
       "python-ops"
-    ],
-    "active": true
+    ]
   },
   "cache": [
     {
@@ -18,10 +18,7 @@
         {
           "valid": true,
           "path": "/nix/store/znnxsqqh10j3zmchvwia7rspj2gbw2nr-python3-3.9.12-env",
-          "narHash": "sha256-yDM4XeWb5xV+Pt1mqBnZdEKjojlthwkUmqQ/iw61zAE=",
-          "signatures": [
-            "samrose:nKbYp8B/+kzU75e8160JhdZDrmQKIxag23aYkXA0DNQrXI7TD9ZWyIPrs80fE4GTZgXgqDBPtJEgIp5qApA2BQ=="
-          ],
+          "narSize": 1168672,
           "references": [
             "/nix/store/0wph72xh91j9zwhg50ps78radcmvsvy7-python3.9-certifi-2021.10.08",
             "/nix/store/0x2lvnmradzwf9hm3y4vqlkw8a451703-python3.9-pysocks-1.7.1",
@@ -80,30 +77,18 @@
             "/nix/store/znnxsqqh10j3zmchvwia7rspj2gbw2nr-python3-3.9.12-env",
             "/nix/store/zqh7ad78yvv189pxh75wwlkw5lhqzpdh-python3.9-trio-0.20.0"
           ],
-          "deriver": "/nix/store/z2vmkn3hgwypjmzj28phqh6ss3dmi1bn-python3-3.9.12-env.drv",
+          "url": "nar/05sz4n9ybl2n969l3crpjm2gavxy60h89gpz2gdd8rk9w09avsri.nar.xz",
           "downloadSize": 19408,
-          "narSize": 1168672,
+          "signatures": [
+            "samrose:nKbYp8B/+kzU75e8160JhdZDrmQKIxag23aYkXA0DNQrXI7TD9ZWyIPrs80fE4GTZgXgqDBPtJEgIp5qApA2BQ=="
+          ],
+          "narHash": "sha256-yDM4XeWb5xV+Pt1mqBnZdEKjojlthwkUmqQ/iw61zAE=",
           "downloadHash": "sha256-MeutEuBpZtTaE/++hCAwvm/1RJU3s0GTSVbQ5ZMlXxc=",
-          "url": "nar/05sz4n9ybl2n969l3crpjm2gavxy60h89gpz2gdd8rk9w09avsri.nar.xz"
+          "deriver": "/nix/store/z2vmkn3hgwypjmzj28phqh6ss3dmi1bn-python3-3.9.12-env.drv"
         }
       ]
     }
   ],
-  "source": {
-    "locked": {
-      "lastModified": 1659992124,
-      "narHash": "sha256-Y6532A2laZIXIiD9vC4xi5R6IDXKrMhRf6dAvyOGnGQ=",
-      "owner": "samrose",
-      "repo": "floxpkgs-publish",
-      "rev": "b762516c04346901dbaa56a9903e4b9983a49bb0",
-      "type": "github"
-    },
-    "original": {
-      "owner": "samrose",
-      "repo": "floxpkgs-publish",
-      "type": "github"
-    }
-  },
   "eval": {
     "attrPath": [
       "x86_64-linux",
@@ -174,5 +159,20 @@
     "system": "x86_64-linux",
     "version": "3.9.12-env"
   },
-  "build": {}
+  "build": {},
+  "source": {
+    "locked": {
+      "lastModified": 1660078570,
+      "narHash": "sha256-WrbzAinACvuE0woVo3YLDT4kht5kz1P5qIe7HCdusuc=",
+      "owner": "samrose",
+      "repo": "floxpkgs-publish",
+      "rev": "496c3645ec191aee3b96d4f4cc9cbc69bcbb6adf",
+      "type": "github"
+    },
+    "original": {
+      "owner": "samrose",
+      "repo": "floxpkgs-publish",
+      "type": "github"
+    }
+  }
 }
