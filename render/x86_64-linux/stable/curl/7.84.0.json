@@ -1,0 +1,162 @@
+{
+  "element": {
+    "storePaths": [
+      "/nix/store/p3yl5jwp6kimvq5v2d5jm7llljhpqjrb-curl-7.84.0-bin",
+      "/nix/store/i8956m887rizh1mqbrhd9fb64n0mgbd9-curl-7.84.0-debug",
+      "/nix/store/ipnb64rdwp8y2l0c62ynyzdvf9bkcabk-curl-7.84.0-dev",
+      "/nix/store/24win1j12m2v83x1995ivmgyg8i1c2pd-curl-7.84.0-devdoc",
+      "/nix/store/gzwz9sdqvwhxlm1fp5mrnd1cqlbh8cic-curl-7.84.0-man",
+      "/nix/store/lgjwsx9l804hl6x8nvl3xmhgqldzh54b-curl-7.84.0"
+    ],
+    "attrPath": [
+      "x86_64-linux",
+      "stable",
+      "curl"
+    ],
+    "active": true
+  },
+  "cache": [
+    {
+      "cacheUrl": "https://flox-store-public.s3.us-east-1.amazonaws.com?trusted=1",
+      "state": "miss",
+      "narinfo": []
+    }
+  ],
+  "build": {},
+  "eval": {
+    "attrPath": [
+      "x86_64-linux",
+      "stable",
+      "curl"
+    ],
+    "drvPath": "/nix/store/2k90rj8ayarj1wdplyv5hnsw8mjbmbkk-curl-7.84.0.drv",
+    "meta": {
+      "available": true,
+      "broken": false,
+      "description": "A command line tool for transferring files with URL syntax",
+      "homepage": "https://curl.se/",
+      "insecure": false,
+      "license": {
+        "deprecated": false,
+        "free": true,
+        "fullName": "curl License",
+        "redistributable": true,
+        "shortName": "curl",
+        "spdxId": "curl",
+        "url": "https://spdx.org/licenses/curl.html"
+      },
+      "maintainers": [
+        {
+          "email": "jason@oconal.id.au",
+          "github": "lovek323",
+          "githubId": 265084,
+          "name": "Jason O'Conal"
+        }
+      ],
+      "name": "curl-7.84.0",
+      "outputsToInstall": [
+        "bin",
+        "man"
+      ],
+      "platforms": [
+        "i686-cygwin",
+        "x86_64-cygwin",
+        "x86_64-darwin",
+        "i686-darwin",
+        "aarch64-darwin",
+        "armv7a-darwin",
+        "i686-freebsd",
+        "x86_64-freebsd",
+        "aarch64-genode",
+        "i686-genode",
+        "x86_64-genode",
+        "x86_64-solaris",
+        "js-ghcjs",
+        "aarch64-linux",
+        "armv5tel-linux",
+        "armv6l-linux",
+        "armv7a-linux",
+        "armv7l-linux",
+        "i686-linux",
+        "m68k-linux",
+        "mipsel-linux",
+        "mips64el-linux",
+        "powerpc64-linux",
+        "powerpc64le-linux",
+        "riscv32-linux",
+        "riscv64-linux",
+        "s390-linux",
+        "s390x-linux",
+        "x86_64-linux",
+        "mmix-mmixware",
+        "aarch64-netbsd",
+        "armv6l-netbsd",
+        "armv7a-netbsd",
+        "armv7l-netbsd",
+        "i686-netbsd",
+        "m68k-netbsd",
+        "mipsel-netbsd",
+        "powerpc-netbsd",
+        "riscv32-netbsd",
+        "riscv64-netbsd",
+        "x86_64-netbsd",
+        "aarch64_be-none",
+        "aarch64-none",
+        "arm-none",
+        "armv6l-none",
+        "avr-none",
+        "i686-none",
+        "msp430-none",
+        "or1k-none",
+        "m68k-none",
+        "powerpc-none",
+        "powerpcle-none",
+        "riscv32-none",
+        "riscv64-none",
+        "rx-none",
+        "s390-none",
+        "s390x-none",
+        "vc4-none",
+        "x86_64-none",
+        "i686-openbsd",
+        "x86_64-openbsd",
+        "x86_64-redox",
+        "wasm64-wasi",
+        "wasm32-wasi",
+        "x86_64-windows",
+        "i686-windows"
+      ],
+      "position": "/nix/store/z08f7sg324wsbjdj2zsr9jfxg194sw0j-source/pkgs/curl/default.nix:186",
+      "unfree": false,
+      "unsupported": false
+    },
+    "name": "curl-7.84.0",
+    "outputs": {
+      "bin": "/nix/store/p3yl5jwp6kimvq5v2d5jm7llljhpqjrb-curl-7.84.0-bin",
+      "debug": "/nix/store/i8956m887rizh1mqbrhd9fb64n0mgbd9-curl-7.84.0-debug",
+      "dev": "/nix/store/ipnb64rdwp8y2l0c62ynyzdvf9bkcabk-curl-7.84.0-dev",
+      "devdoc": "/nix/store/24win1j12m2v83x1995ivmgyg8i1c2pd-curl-7.84.0-devdoc",
+      "man": "/nix/store/gzwz9sdqvwhxlm1fp5mrnd1cqlbh8cic-curl-7.84.0-man",
+      "out": "/nix/store/lgjwsx9l804hl6x8nvl3xmhgqldzh54b-curl-7.84.0"
+    },
+    "pname": "curl",
+    "stability": "stable",
+    "system": "x86_64-linux",
+    "version": "7.84.0"
+  },
+  "source": {
+    "locked": {
+      "lastModified": 1660664232,
+      "narHash": "sha256-obC+hbFzJF4aSIVF2G7g5LP3B2YZqVPF6Z5t53AUziw=",
+      "owner": "samrose",
+      "repo": "floxpkgs-publish",
+      "rev": "ffee23f5b5e06d4f431dc48d652873a95874c046",
+      "type": "github"
+    },
+    "original": {
+      "owner": "samrose",
+      "repo": "floxpkgs-publish",
+      "type": "github"
+    }
+  }
+}
